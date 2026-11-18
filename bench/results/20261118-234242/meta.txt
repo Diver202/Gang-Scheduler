@@ -1,0 +1,9 @@
+started 2026-11-18T23:42:43
+args {'reps': 3, 'duration': 10, 'warmup': 2, 'schedulers': ['eevdf', 'rt', 'simple', 'gang'], 'loads': ['idle', 'stress', 'oversub'], 'barriers': ['spin', 'block'], 'max_temp': 60, 'overrun': 120, 'keep_governor': False, 'seed': None, 'out': None}
+seed 312789885
+kernel 7.3.0-1004-raspi
+governor performance (was ondemand)
+cpu_freq_khz 2400000
+firefox_running False
+load_average 2.87 3.54 2.69 1/889 13976
+temp 52.7 throttled 0x0
