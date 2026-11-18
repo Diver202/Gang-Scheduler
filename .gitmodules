@@ -1,0 +1,3 @@
+[submodule "scx-c-examples"]
+	path = scx-c-examples
+	url = https://github.com/sched-ext/scx-c-examples

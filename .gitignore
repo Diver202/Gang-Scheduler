@@ -1,0 +1,19 @@
+# Build output (rebuild with make)
+/sim/vbd
+/scheduler/build/
+*.o
+
+# Reference clone of sched-ext/scx, not used by any build.
+# Re-create with: git clone https://github.com/sched-ext/scx scx
+/scx/
+
+# Raw run output. Kept locally; summaries, plots and results.csv are tracked.
+/logs/
+/bench/results/*/logs/
+/bench/results/*/steps/
+
+# Python / editor / OS
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
